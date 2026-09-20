@@ -14,9 +14,10 @@ st.markdown("""
     .main-header h1 {
         font-size: 2.2rem;
         margin-bottom: 0.2rem;
+        color: #1a1a1a;
     }
     .main-header p {
-        color: #888;
+        color: #666;
         font-size: 1rem;
     }
     .scheme-card {
@@ -25,6 +26,10 @@ st.markdown("""
         padding: 1.2rem 1.5rem;
         margin-bottom: 1rem;
         border-left: 5px solid #2ecc71;
+        color: #1a1a1a;
+    }
+    .scheme-card h4, .scheme-card b, .scheme-card li {
+        color: #1a1a1a;
     }
     .near-miss-card {
         background-color: #fffbf0;
@@ -32,6 +37,10 @@ st.markdown("""
         padding: 1.2rem 1.5rem;
         margin-bottom: 1rem;
         border-left: 5px solid #f39c12;
+        color: #1a1a1a;
+    }
+    .near-miss-card h4, .near-miss-card b, .near-miss-card li {
+        color: #1a1a1a;
     }
     .badge-match {
         background-color: #2ecc71;
@@ -52,6 +61,7 @@ st.markdown("""
     .doc-chip {
         display: inline-block;
         background-color: #e8eaf0;
+        color: #1a1a1a;
         padding: 2px 10px;
         border-radius: 8px;
         font-size: 0.8rem;
@@ -59,7 +69,6 @@ st.markdown("""
     }
 </style>
 """, unsafe_allow_html=True)
-
 # --- Header ---
 st.markdown("""
 <div class="main-header">
