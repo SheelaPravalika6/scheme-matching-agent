@@ -37,5 +37,122 @@
       "occupation": ["entrepreneur"]
     },
     "documents_required": ["Aadhaar card", "Caste certificate (if applicable)", "Business plan", "Bank account details"]
+  },
+  {
+    "scheme_id": "pm_vishwakarma",
+    "name": "PM Vishwakarma Yojana",
+    "description": "Support scheme for traditional artisans and craftspeople, offering skill training, toolkits, and collateral-free loans.",
+    "eligibility": {
+      "min_age": 18,
+      "max_age": 100,
+      "education_min": null,
+      "category": ["general", "obc", "sc", "st", "women"],
+      "occupation": ["self-employed", "entrepreneur"]
+    },
+    "documents_required": ["Aadhaar card", "Proof of traditional trade/craft", "Bank account details"]
+  },
+  {
+    "scheme_id": "startup_india_seed",
+    "name": "Startup India Seed Fund Scheme",
+    "description": "Financial assistance for early-stage startups for proof of concept, prototype development, and market entry.",
+    "eligibility": {
+      "min_age": 18,
+      "max_age": 100,
+      "education_min": null,
+      "category": ["general", "obc", "sc", "st", "women"],
+      "occupation": ["entrepreneur"]
+    },
+    "documents_required": ["Aadhaar card", "Startup India recognition certificate", "Business plan", "Pitch deck"]
+  },
+  {
+    "scheme_id": "national_scholarship_post_matric",
+    "name": "National Scholarship for Post-Matric Students (SC/ST/OBC)",
+    "description": "Financial assistance for SC/ST/OBC students pursuing education after 10th grade.",
+    "eligibility": {
+      "min_age": 15,
+      "max_age": 30,
+      "education_min": "10th pass",
+      "category": ["sc", "st", "obc"],
+      "occupation": ["student"]
+    },
+    "documents_required": ["Aadhaar card", "Caste certificate", "Income certificate", "Previous year mark sheet"]
+  },
+  {
+    "scheme_id": "pmfme",
+    "name": "PMFME (PM Formalisation of Micro Food Processing Enterprises)",
+    "description": "Financial, technical, and business support for micro food processing enterprises.",
+    "eligibility": {
+      "min_age": 18,
+      "max_age": 100,
+      "education_min": null,
+      "category": ["general", "obc", "sc", "st", "women"],
+      "occupation": ["entrepreneur", "self-employed"]
+    },
+    "documents_required": ["Aadhaar card", "Business registration proof", "Bank account details"]
+  },
+  {
+    "scheme_id": "atal_pension_yojana",
+    "name": "Atal Pension Yojana",
+    "description": "Pension scheme for workers in the unorganised sector, guaranteeing a fixed monthly pension after age 60.",
+    "eligibility": {
+      "min_age": 18,
+      "max_age": 40,
+      "education_min": null,
+      "category": ["general", "obc", "sc", "st", "women"],
+      "occupation": ["unemployed", "self-employed", "salaried"]
+    },
+    "documents_required": ["Aadhaar card", "Bank account details", "Mobile number"]
+  },
+  {
+    "scheme_id": "skill_india_training",
+    "name": "Skill India / PMKVY Free Training",
+    "description": "Free short-term skill training programs with a certificate, aimed at improving employability.",
+    "eligibility": {
+      "min_age": 15,
+      "max_age": 45,
+      "education_min": null,
+      "category": ["general", "obc", "sc", "st", "women"],
+      "occupation": ["unemployed", "student"]
+    },
+    "documents_required": ["Aadhaar card", "Education certificate (if any)"]
+  },
+  {
+    "scheme_id": "mudra_kishor",
+    "name": "MUDRA Loan (Kishor)",
+    "description": "Loans between Rs. 50,000 and Rs. 5 lakh for slightly more established small businesses.",
+    "eligibility": {
+      "min_age": 18,
+      "max_age": 60,
+      "education_min": null,
+      "category": ["general", "obc", "sc", "st", "women"],
+      "occupation": ["entrepreneur", "self-employed"]
+    },
+    "documents_required": ["Aadhaar card", "PAN card", "Business plan", "Bank statement (last 6 months)"]
+  },
+  {
+    "scheme_id": "pm_kisan",
+    "name": "PM-KISAN (Income Support for Farmers)",
+    "description": "Direct income support of Rs. 6,000/year for small and marginal farmer families.",
+    "eligibility": {
+      "min_age": 18,
+      "max_age": 100,
+      "education_min": null,
+      "category": ["general", "obc", "sc", "st", "women"],
+      "occupation": ["self-employed"]
+    },
+    "documents_required": ["Aadhaar card", "Land ownership documents", "Bank account details"]
+  },
+  {
+    "scheme_id": "national_apprenticeship",
+    "name": "National Apprenticeship Promotion Scheme",
+    "description": "Stipend support for apprenticeship training in industries, aimed at students and recent graduates.",
+    "eligibility": {
+      "min_age": 18,
+      "max_age": 28,
+      "education_min": "10th pass",
+      "category": ["general", "obc", "sc", "st", "women"],
+      "occupation": ["student", "unemployed"]
+    },
+    "documents_required": ["Aadhaar card", "Education certificate", "Bank account details"]
   }
 ]
