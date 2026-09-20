@@ -9,16 +9,25 @@ st.markdown("""
 <style>
     .main-header {
         text-align: center;
-        padding: 1.5rem 0 0.5rem 0;
+        padding: 2.5rem 1.5rem;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        border-radius: 16px;
+        margin-bottom: 1.5rem;
+        box-shadow: 0 4px 20px rgba(0,0,0,0.15);
     }
     .main-header h1 {
-        font-size: 2.2rem;
-        margin-bottom: 0.2rem;
-        color: #1a1a1a;
+        font-size: 2.1rem;
+        margin-bottom: 0.5rem;
+        color: #ffffff;
+        font-weight: 700;
     }
     .main-header p {
-        color: #666;
+        color: #f0f0f5;
         font-size: 1rem;
+        margin-top: 0.5rem;
+        max-width: 550px;
+        margin-left: auto;
+        margin-right: auto;
     }
     .scheme-card {
         background-color: #f8f9fa;
@@ -69,6 +78,7 @@ st.markdown("""
     }
 </style>
 """, unsafe_allow_html=True)
+
 # --- Header ---
 st.markdown("""
 <div class="main-header">
@@ -83,7 +93,7 @@ st.divider()
 with st.form("profile_form"):
     col1, col2 = st.columns(2)
     with col1:
-        age = st.number_input("Your age", min_value=18, max_value=100, value=25, step=1)
+        age = st.number_input("Your age", min_value=15, max_value=100, value=25, step=1)
         category = st.selectbox("Your category", ["general", "obc", "sc", "st", "women"])
     with col2:
         occupation = st.selectbox("Current occupation", ["unemployed", "entrepreneur", "self-employed", "student", "salaried"])
@@ -114,7 +124,7 @@ if submitted:
     st.divider()
 
     if not matches and not near_misses:
-        st.warning("No matching or near-miss schemes found for this profile. Try adjusting your answers.")
+        st.warning("No matching or near-miss schemes were found for this profile. Try adjusting your answers.")
     else:
         if matches:
             st.markdown("### ✅ You're eligible for these schemes")
