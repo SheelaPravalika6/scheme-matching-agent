@@ -1,0 +1,41 @@
+[
+  {
+    "scheme_id": "pmegp",
+    "name": "PMEGP (Prime Minister's Employment Generation Programme)",
+    "description": "Credit-linked subsidy to help set up new micro-enterprises in manufacturing or services.",
+    "eligibility": {
+      "min_age": 18,
+      "max_age": 35,
+      "education_min": "8th pass",
+      "category": ["general", "sc", "st", "obc"],
+      "occupation": ["unemployed", "entrepreneur"]
+    },
+    "documents_required": ["Aadhaar card", "Education certificate", "Project report", "Caste certificate (if applicable)"]
+  },
+  {
+    "scheme_id": "mudra_shishu",
+    "name": "MUDRA Loan (Shishu)",
+    "description": "Collateral-free loans up to Rs. 50,000 for small business owners just starting out.",
+    "eligibility": {
+      "min_age": 18,
+      "max_age": 60,
+      "education_min": null,
+      "category": ["general", "sc", "st", "obc"],
+      "occupation": ["entrepreneur", "self-employed"]
+    },
+    "documents_required": ["Aadhaar card", "PAN card", "Business plan", "Bank statement"]
+  },
+  {
+    "scheme_id": "stand_up_india",
+    "name": "Stand-Up India",
+    "description": "Bank loans between Rs. 10 lakh and Rs. 1 crore for SC/ST and women entrepreneurs setting up a new enterprise.",
+    "eligibility": {
+      "min_age": 18,
+      "max_age": 65,
+      "education_min": null,
+      "category": ["sc", "st", "women"],
+      "occupation": ["entrepreneur"]
+    },
+    "documents_required": ["Aadhaar card", "Caste certificate (if applicable)", "Business plan", "Bank account details"]
+  }
+]
